@@ -60,7 +60,8 @@ class BoatsController < ApplicationController
       :length,
       :engine_power,
       :crew_number,
-      :day_price
+      :day_price,
+      photos: []
     )
   end
 
